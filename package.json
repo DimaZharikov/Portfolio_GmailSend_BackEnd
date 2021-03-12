@@ -5,6 +5,9 @@
   "main": "index.js",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "start" : "node index.js"
+  },
   "dependencies": {
     "@types/express": "^4.17.11",
     "@types/nodemailer": "^6.4.0",
