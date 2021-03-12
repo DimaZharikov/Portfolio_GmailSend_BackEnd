@@ -50,6 +50,6 @@ app.post("/message", async function (req, res) {
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, function () {
-    console.log("App Listening on port 4000");
+    console.log(`Example app listening at http://localhost:${PORT}`);
 })
 
