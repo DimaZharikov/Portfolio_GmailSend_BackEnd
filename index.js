@@ -10,8 +10,8 @@ app.use(cors())
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json())
 
-const smtpLogin   = process.env.SMTPLOGIN || 'logged';
-const smtpPassword = process.env.SMTPPASSWORD || 'password';
+const smtpLogin   = process.env.SMTPLOGIN || '*******';
+const smtpPassword = process.env.SMTPPASSWORD || '************';
 // create reusable transporter object using the default SMTP transport
 let transporter = nodemailer.createTransport({
     service: "gmail",
